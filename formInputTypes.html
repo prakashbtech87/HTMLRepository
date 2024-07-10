@@ -2,19 +2,31 @@
 <html>
 
 <head>
-   <title>Hello World Form</title>
+   <title>Input Types</title>
 </head>
 
 <body>
    <div>
-      <h1> HTML 5 Form example </h1>
+      <h1> HTML 5 Form Input Types </h1>
       <form action="#" method="GET">
 
-         <input type="text" name="username" placeholder="Type your name" required /> <br>
-         <input type="email" name="email" placeholder="yourid@domain.com" /> <br>
-         <input type="text" name="subject" placeholder="Some Subject" /><br>
-         <textarea name="message" placeholder="Type your message"></textarea><br>
-         <input type="submit" value="Click to Register" />
+         <input type="text" name="userName" placeholder="Type your name" required /> <br>
+         <input type="password" placeholder="*********"><br>
+
+         <label> Gender </label>
+         <input type="radio" name="gender"> Male
+         <input type="radio" name="gender"> Female <br>
+
+         <label> Fav Fruit </label>
+         <input type="checkbox" name="choice"> Apple
+         <input type="checkbox" name="choice"> Orange<br>
+
+
+         <input type="button" value="button link"><br>
+
+
+         <input type="reset"> &nbsp;
+         <input type="submit">
       </form>
 
    </div>
